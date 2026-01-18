@@ -32,6 +32,8 @@ When writing a git commit message, you MUST follow the Conventional Commits spec
    - Separation: Use a blank line between the subject and the body.
 6. Breaking Changes: If the changes break backward compatibility, add a footer starting with BREAKING CHANGE: followed by a description of the change.
 7. Security: Always use GPG signing for the commit. Ensure the final command does not include the --no-gpg-sign flag.
+8. User Confirmation: Proactively present the generated commit message (subject and body) to the user and ask for their confirmation before executing the `git commit` command.
+
 
 Example
 `feat(auth): implement login with google`
